@@ -77,7 +77,7 @@ const App: React.FC = () => {
     <div className="flex flex-col h-screen max-w-md mx-auto bg-gray-50 overflow-hidden relative shadow-2xl">
       {/* Top Header */}
       <header className="bg-indigo-600 text-white p-4 shadow-md flex items-center justify-between shrink-0">
-        <h1 className="text-xl font-bold tracking-tight">SmartReceipt</h1>
+        <h1 className="text-xl font-bold tracking-tight">Expense Tracker</h1>
         <div className="text-xs bg-indigo-500 px-2 py-1 rounded-full uppercase font-medium">
           {view === 'add' && editingExpense ? 'edit' : view}
         </div>
