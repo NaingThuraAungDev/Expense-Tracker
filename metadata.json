@@ -1,0 +1,7 @@
+{
+  "name": "Expense Tracker",
+  "description": "A mobile-first expense manager featuring AI-powered receipt scanning, daily budget tracking, and detailed data visualization.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
